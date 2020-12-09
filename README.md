@@ -1,0 +1,1 @@
+Repository to store high-level projects developed in Python
