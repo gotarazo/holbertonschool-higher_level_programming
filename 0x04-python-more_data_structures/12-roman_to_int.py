@@ -7,8 +7,7 @@ def roman_to_int(roman_string):
     for i in range(len(roman_string)):
         if dic_num.get(roman_string[i], 0) == 0:
             return (0)
-        if (i != (len(roman_string) - 1) and
-        dic_num[roman_string[i]] < dic_num[roman_string[i + 1]]):
+      if(i!=(len(roman_string)-1)and dic_num[roman_string[i]]<dic_num[roman_string[i + 1]]):
             n += dic_num[roman_string[i]] * -1
         else:
             n += dic_num[roman_string[i]]
