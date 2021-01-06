@@ -27,25 +27,25 @@ class Square:
         return self.__size ** 2
 
     def __eq__(self, other):
-        """Define the == comparision to a Square."""
+        """Define the comparator == to a Square"""
         return self.area() == other.area()
 
     def __ne__(self, other):
-        """Define the != comparison to a Square"""
+        """Define the comparator != to a Square"""
         return self.area() != other.area()
 
     def __lt__(self, other):
-        """Define the < comparison to a Square"""
+        """Define the comparator < to a Square"""
         return self.area() < other.area()
 
     def __le__(self, other):
-        """Define the <= comparison to a Square"""
+        """Define the comparator <= to a Square"""
         return self.area() <= other.area()
 
     def __gt__(self, other):
-        """Define the > comparison to a Square"""
+        """Define the comparator > to a Square"""
         return self.area() > other.area()
 
     def __ge__(self, other):
-        """Define the >= compmarison to a Square"""
+        """Define the comparator >= to a Square"""
         return self.area() >= other.area()
