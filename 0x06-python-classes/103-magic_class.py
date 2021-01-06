@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Define a Python class MagicClass doing exactly the same as a Python bytecode"""
+"""Define a Python class MagicClass that does the same as a Python bytecode"""
+
 
 import math
 
@@ -20,4 +21,4 @@ class MagicClass:
 
     def circumference(self):
         """Calculates the circumference of the Circle-MagicClass"""
-        return (2 * math.pi * self.__radius)
+        return self.__radius * 2 * math.pi
