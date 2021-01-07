@@ -16,16 +16,16 @@
 
 >>> add_integer(5, ‘H’)
 Traceback (most recent call last):
-          ...
+...
 TypeError: b must be an integer
 
 >>> add_integer(‘H’, 6)
 Traceback (most recent call last):
-          ...
+...
 TypeError: a must be an integer
 
 
 >>> add_integer(‘H’, ‘H’)
 Traceback (most recent call last):
-          ...
+...
 TypeError: a and b must be an integer
