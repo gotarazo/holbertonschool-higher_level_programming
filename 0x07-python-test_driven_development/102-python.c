@@ -16,7 +16,7 @@ if (strcmp(p->ob_type->tp_name, "str") != 0)
 printf("  [ERROR] Invalid String Object\n");
 return;
 }
-len = ((PyASCIIObject *)(p))->len;
+len = ((PyASCIIObject *)(p))->length;
 
 if (PyUnicode_IS_COMPACT_ASCII(p))
 printf("  type: compact ascii\n");
