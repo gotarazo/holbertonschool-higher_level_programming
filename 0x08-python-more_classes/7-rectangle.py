@@ -54,12 +54,12 @@ class Rectangle:
     def __str__(self):
         """Prints the representation of the rectangle"""
 
-        rectangle = ""
         if self.width == 0 or self.height == 0:
-            return rectangle
+            return ""
+        rectangle = ""
         for i in range(0, self.height):
             for j in range(0, self.width):
-                rectangle += '#'
+                rectangle += str(self.print_symbol)
             if i != self.height - 1:
                 rectangle += '\n'
         return rectangle
