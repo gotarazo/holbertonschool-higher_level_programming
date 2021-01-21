@@ -3,7 +3,7 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
-    """Inserts a line of text to a file, line containing a specific string after"""
+    """Inserts line of text to file line containing specific string after"""
     txt = ""
     with open(filename) as r:
         for line in r:
